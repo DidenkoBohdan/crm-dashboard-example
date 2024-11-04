@@ -141,11 +141,13 @@ body.no-scroll {
 
     label {
       position: relative;
+      display: block;
 
       svg {
         position: absolute;
         top: 7px;
         left: 8px;
+        z-index: 1;
 
         path {
           transition: stroke 0.2s ease;
